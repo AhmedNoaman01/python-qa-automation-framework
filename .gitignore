@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Reports: retain folder but ignore generated run artifacts
+reports/*.xml
+reports/summary.md
+reports/summary.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
